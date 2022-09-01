@@ -1,0 +1,88 @@
+{
+  "name": "table1",
+  "table_id": 0,
+  "index_id": 0,
+  "heap_id": 0,
+  "columns": [
+    {
+      "column_id": 0,
+      "name": "id",
+      "data_type": "Integer",
+      "not_null": true,
+      "fixed_length": true,
+      "max_length": 4,
+      "index": 0,
+      "primary_key": true
+    },
+    {
+      "column_id": 1,
+      "name": "name",
+      "data_type": "Char",
+      "not_null": true,
+      "fixed_length": true,
+      "max_length": 64,
+      "index": 1,
+      "primary_key": false
+    },
+    {
+      "column_id": 2,
+      "name": "sex",
+      "data_type": "Char",
+      "not_null": true,
+      "fixed_length": true,
+      "max_length": 4,
+      "index": 2,
+      "primary_key": false
+    },
+    {
+      "column_id": 3,
+      "name": "age",
+      "data_type": "Integer",
+      "not_null": true,
+      "fixed_length": true,
+      "max_length": 4,
+      "index": 3,
+      "primary_key": false
+    },
+    {
+      "column_id": 4,
+      "name": "height",
+      "data_type": "Long",
+      "not_null": true,
+      "fixed_length": true,
+      "max_length": 8,
+      "index": 4,
+      "primary_key": false
+    },
+    {
+      "column_id": 5,
+      "name": "weight",
+      "data_type": "Float",
+      "not_null": true,
+      "fixed_length": true,
+      "max_length": 4,
+      "index": 5,
+      "primary_key": false
+    },
+    {
+      "column_id": 6,
+      "name": "address1",
+      "data_type": "VarChar",
+      "not_null": true,
+      "fixed_length": false,
+      "max_length": 128,
+      "index": 6,
+      "primary_key": false
+    },
+    {
+      "column_id": 7,
+      "name": "address2",
+      "data_type": "VarChar",
+      "not_null": true,
+      "fixed_length": false,
+      "max_length": 64,
+      "index": 7,
+      "primary_key": false
+    }
+  ]
+}

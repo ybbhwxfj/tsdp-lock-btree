@@ -1,0 +1,31 @@
+[workspace]
+
+members = [
+    "storage",
+    "adt",
+    "common",
+]
+
+[profile.dev]
+opt-level = 0
+debug = true
+debug-assertions = true
+overflow-checks = true
+lto = false
+panic = 'unwind'
+incremental = true
+codegen-units = 256
+rpath = false
+
+
+[profile.release]
+opt-level = 3
+debug = false
+split-debuginfo = '...'  # Platform-specific.
+debug-assertions = false
+overflow-checks = false
+lto = false
+panic = 'unwind'
+incremental = false
+codegen-units = 16
+rpath = false
